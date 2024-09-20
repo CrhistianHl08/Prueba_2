@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Q'RICO</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" 
+    href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="estilo_platillo.css">
+
+</head>
+<body>
+
+    <section id="inicio">
+        <!--Encabezado-->
+        <header>
+            <div class="contenido-header">
+            
+                <div class="logo">
+                    <h2>Q'RIKO</h2>
+                    <!--img src="img/Logo.jpg" alt="Not found"-->
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <i class="fa-solid fa-house"></i>
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="platillos.html">
+                                <i class="fa-solid fa-utensils"></i>
+                                <span>Platillos</span>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="bebidas.html">
+                                <i class="fa-solid fa-bottle-droplet"></i>
+                                <span>Bebidas</span>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="nosotros.html">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>Nosotros</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div class="social">
+                    <a href="tel:+51967753866">
+                        <i class="fa-solid fa-phone"></i>
+                        967753866
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+    
+                <div class="nav-responsive" id="bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+    
+            </div>
+        </header>
+
+        <div class="platos">
+
+                <header>
+                    <div class="header-container">
+                        <img src="img/Logo.png" alt="Logo del Restaurante" class="restaurant-logo">
+                    </div>
+                </header>
+            
+                <div class="carrusel">
+
+                    <div class="gallery js-flickity" data-flickity-options='{"wrapAround":true, 
+                    "pageDots":false, "autoPlay":true}'>
+            
+                        <!-- Primera página de menú -->
+                        <div class="menu-page">
+
+                            <h2>Menu Económico</h2>
+
+                            <div class="menu-item-title">
+                                <div class="title-contenido">
+                                    <p><strong>Sopa: </strong>De Casa</p>
+                                    <p><strong>Entrada: </strong>Causa Limeña</p>
+                                    <span class="price">S/10.00</span>
+                                </div>  
+                            </div>
+
+                            <div class="menu-item">
+                                <p>Tallarines c/ Pollo y Papa a la Huancaina</p>
+                            </div>
+
+                            <div class="menu-item">
+                                <p>Cau-cau c/ Canchita</p>
+                            </div>
+
+                            <div class="menu-item">
+                                <p>Pollo a la Plancha c/ Papas</p>
+                            </div>
+                        </div>
+            
+                        <!-- Segunda página de menú -->
+                        <div class="menu-page">
+
+                            <h2>Menu Ejecutivo</h2>
+
+                            <div class="menu-item-title">
+                                <div class="title-contenido">
+                                    <p><strong>Sopa: </strong>De Casa</p>
+                                    <p><strong>Entrada: </strong>Causa Limeña</p>
+                                    <span class="price">S/14.00</span>
+                                </div>  
+                            </div>
+
+                            <div class="menu-item">
+                                <p>Arroz Chaufa</p>
+                            </div>
+
+                            <div class="menu-item">
+                                <p>Lomo Saltado</p>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <p>Chicharron de Pollo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+
+    </section>
+
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js">
+    </script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

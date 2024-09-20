@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Inicio */
+#inicio{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#inicio header{
+    width: 100%;
+}
+
+#inicio header .contenido-header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    position: relative;
+}
+
+#inicio header .contenido-header nav{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#inicio header .contenido-header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+#inicio header .contenido-header .logo{
+    color: #ff8f46;
+    font-size: 22px;
+    width: 100px;
+}
+
+#inicio header .contenido-header nav ul li{
+    text-align: center;
+}
+
+#inicio header .contenido-header nav ul li i{
+    display: block;
+    color: #a8a8a8;
+    margin: 0 20px;
+}
+
+#inicio header .contenido-header nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #a8a8a8;
+    margin: 0 20px;
+}
+
+.nav-responsive{
+    font-size: 25px;
+    color: #a8a8a8;
+    display: none;
+}
+
+#inicio header .contenido-header nav ul li:hover i{
+    color: #ff8f46;
+}
+
+#inicio header .contenido-header .social a{
+    display: inline-block;
+    background-color: #ff8f46;
+    text-decoration: none;
+    color: #ffffff;
+    padding:  10px 20px;
+    border-radius: 30px;
+}
+
+
+/*Edicion de Platillos HTML*/
+
+#inicio .platos{
+    background-image: url(img/Fondo.jpg);
+    position: relative;
+    height: 100%;
+}
+
+/*Carrusel*/
+
+p{
+    font-family: "Dancing Script";
+}
+strong{
+    font-family: "Dancing Script";
+}
+span{
+    font-family: "Dancing Script";
+}
+
+.header-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.restaurant-logo {
+    width: 150px;
+    margin-top: 10px;
+}
+
+
+.menu-page {
+    min-width: 75%; /* Cada página toma el 100% del contenedor visible */
+    margin: 0 100px 0 100px; 
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#inicio .platos .carrusel h2{
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: "Dancing Script";
+    color: #333;
+    border-bottom: 2px solid #ff8f46;
+}
+
+.menu-item-title {
+    font-size: 30px;
+    border-bottom: 2px solid #ff8f46;
+}
+
+.menu-item-title p{
+    padding: 0 10px 0 10px;
+}
+.menu-item-title span{
+    padding: 0 10px 0 10px;
+}
+
+.title-contenido{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin: 10px 0px 10px 10px;
+    color: #444;
+}
+
+
+.price {
+    font-size: 1.1em;
+    color: #ff8f46;
+    font-weight: bold;
+}
+
+#inicio .platos .carrusel .menu-page strong{
+    color: #ff8f46;
+}
